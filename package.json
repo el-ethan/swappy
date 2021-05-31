@@ -3,13 +3,17 @@
 	"displayName": "Swappy",
 	"description": "Swap items around a comma",
 	"publisher": "elethan",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"engines": {
 		"vscode": "^1.46.0"
 	},
 	"categories": [
 		"Other"
 	],
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/el-ethan/swappy"
+    },
 	"keywords": ["editing", "productivity", "swap", "swappy"],
 	"activationEvents": [
         "onCommand:swappy.swap"
